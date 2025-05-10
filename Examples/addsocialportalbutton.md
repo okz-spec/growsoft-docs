@@ -1,7 +1,5 @@
 # Adding Buttons to the Social Portal
 
-Here you learn how to add buttons to a social portal using a callable function.
-
 Here’s an example of how to add a custom button to a social portal:
 
 ```lua
