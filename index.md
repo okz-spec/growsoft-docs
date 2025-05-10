@@ -6,7 +6,7 @@ hero:
   name: "GrowSoft Docs"
   tagline: Technical documentation for GrowSoft Lua API
   image:
-    src: /logo.png
+    src: /public/logo.png
     alt: VitePress
   actions:
     - theme: brand
