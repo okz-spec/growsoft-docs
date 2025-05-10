@@ -7,7 +7,7 @@ export default defineConfig({
   description: "Technical documentation for GrowSoft Lua API",
   appearance: 'force-dark',
   head: [
-    ['link', { rel: 'icon', type: 'image/png', href: '/icon.png' }],
+    ['link', { rel: 'icon', type: 'image/png', href: '/lock.png' }],
   ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
