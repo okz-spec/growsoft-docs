@@ -20,7 +20,7 @@ export default defineConfig({
       {
         text: '📐 Examples',
         items: [
-          { text: '❌ Disable Piggy Bank button', link: 'Examples/disablepiggybankbutton.md' },
+          { text: '❌ Disable Piggy Bank Button', link: 'Examples/disablepiggybankbutton.md' },
           { text: '✏️ Add Social Portal Button', link: 'Examples/addsocialportalbutton' }
         ]
       },
