@@ -2,6 +2,24 @@
 
 Here you can learn how to hook callbacks.
 
+## onPlayerVariantCallback
+
+```lua
+onPlayerVariantCallback(function(player, variant, delay, netID)
+    local first_element = variant[1]
+
+    if first_element == "OnDialogRequest" then
+        local dialog_data = variant[2]
+
+        print(dialog_data)
+    end
+
+    return false
+end)
+```
+
+*Note: With onPlayerVariantCallback you can view all things that server sends to player and even change / edit them (Not exactly good idea but possible)*
+
 ## onPlayerDialogCallback
 
 ```lua
@@ -21,7 +39,7 @@ onPlayerDialogCallback(function(world, player, data)
 end)
 ```
 
-Note: The data to get the dialog name and button clicked, is always data["dialog_name"] and data["buttonClicked"] respectively, nothing else, it's a built in function.
+*Note: The data to get the dialog name and button clicked, is always data["dialog_name"] and data["buttonClicked"] respectively, nothing else, it's a built in function.*
 
 ## PlayerConsumeableCallback
 ```lua

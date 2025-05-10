@@ -18,12 +18,13 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: '🧰 Functions',
+        text: '📐 Examples',
         items: [
-          { text: '🕹 Social Portal Button', link: 'Functions/socialportalbutton-function' }
+          { text: '❌ Disable Piggy Bank button', link: 'Examples/disablepiggybankbutton.md' },
+          { text: '✏️ Add Social Portal Button', link: 'Examples/addsocialportalbutton' }
         ]
       },
-            {
+      {
         text: '📡 Information',
         items: [
           { text: '⚔️ Dialog String Syntax', link: 'Information/dialogstringsyntax' },
