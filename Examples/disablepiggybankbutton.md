@@ -1,4 +1,4 @@
-# Disable a Piggy Bank button!
+# Disable a Piggy Bank button
 
 Here’s an example of how to disable a Piggy Bank button:
 
