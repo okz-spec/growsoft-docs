@@ -154,6 +154,30 @@ onPlayerDisconnectCallback(function(player)
 end)
 ```
 
+## onPlayerRawPacketCallback
+```lua
+onPlayerRawPacketCallback(function(player, data)
+    if data then
+        local packet_bytes = {data:byte(1, #data)}
+        local packet_type = packet_bytes[1] -- 1 byte
+        print(packet_type)
+    end
+
+    return false
+end)
+```
+
+*Note: You can block default packets that server sends to client, however you need to have deeper Growtopia packets structure knowledge.*
+
+## onPlayerTradeCallback
+```lua
+onPlayerTradeCallback(function(world, player1, player2, items1, items2)
+    for _, item in ipairs(items1) do
+        print("Traded " .. tostring(item.id) .. " x" .. tostring(item.count))
+    end
+end)
+```
+
 ## onPlayerDeathCallBack
 ```lua
 onPlayerDeathCallback(world, player, isRespawn)
