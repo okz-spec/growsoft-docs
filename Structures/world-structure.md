@@ -21,6 +21,7 @@ world:onCreateExplosion(x, y, radius, power) -- Create an explosion at (x, y) wi
 world:addXP(player, amount) -- Add experience points to a player.
 world:setPlayerPosition(player, x, y) -- Teleport the player to the specified coordinates.
 world:getDroppedItems() -- Get a list of all dropped items.
+world:sendPlayerMessage(player, "something") -- You can also run player commands.
 world:getTileDroppedItems(tile) -- Get a list of all dropped items on a specific tile.
 world:removeDroppedItem(DropUID) -- Remove a dropped item.
 world:getID() -- Get the world's ID.

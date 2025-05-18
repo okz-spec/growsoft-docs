@@ -106,6 +106,10 @@ player:getWorld() -- Returns the world object or nil
 player:disconnect() -- Kick the player from the server
 
 getPlayerByName("Name") -- Get player object by name
+
+local bytes = string.char(1, 2, 3, 4 ...)
+player:sendRawPacket(bytes)
+-- You can send any packets using this way, however you need to know Growtopia packets structure.
 ```
 
 ## Extras
