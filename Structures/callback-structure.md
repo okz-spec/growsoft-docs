@@ -41,6 +41,14 @@ end)
 
 *Note: The data to get the dialog name and button clicked, is always data["dialog_name"] and data["buttonClicked"] respectively, nothing else, it's a built in function.*
 
+## onTick
+
+```lua
+onTick(function() -- Call exactly every 100ms
+    
+end)
+```
+
 ## PlayerConsumeableCallback
 ```lua
 onPlayerConsumableCallback(function(world, player, tile, clickedPlayer, itemID)

@@ -14,6 +14,7 @@ player:getCountry() -- Player's country (online only)
 player:getPlatform() -- Player's platform (0=Windows, 1=iOS, 4=Android, etc.)
 player:getOnlineStatus() -- Online/offline status
 player:getDiscordID() -- Linked Discord ID
+player:getType() -- If value is non-zero it means player is NPC
 player:getAccountCreationDateStr() -- Account creation date as a string
 ```
 
@@ -115,6 +116,7 @@ player:sendRawPacket(bytes)
 ## Extras
 
 ```lua
+player:isFacingLeft() -- What direction is player facing
 player:getGuildID()
 player:getHomeWorldID()
 player:getTransformProfileButtons()

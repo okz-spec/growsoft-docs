@@ -24,6 +24,10 @@ world:getDroppedItems() -- Get a list of all dropped items.
 world:sendPlayerMessage(player, "something") -- You can also run player commands.
 world:getTileDroppedItems(tile) -- Get a list of all dropped items on a specific tile.
 world:removeDroppedItem(DropUID) -- Remove a dropped item.
+world:kill(player) -- Kill player.
+world:hasAccess(player)
+world:hasTileAccess(player, tile)
+world:punchTile(tile)
 world:getID() -- Get the world's ID.
 getWorldSizeX() -- Get the world’s size horizontally.
 getWorldSizeY() -- Get the world’s size vertically.
