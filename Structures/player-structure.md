@@ -16,6 +16,7 @@ player:getOnlineStatus() -- Online/offline status
 player:getDiscordID() -- Linked Discord ID
 player:getType() -- If value is non-zero it means player is NPC
 player:getAccountCreationDateStr() -- Account creation date as a string
+player:isOnline() -- Check if player is online or not
 ```
 
 ## Currency & Items

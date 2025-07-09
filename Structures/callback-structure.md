@@ -94,6 +94,11 @@ onPlayerLoginCallback(function(player)
 end)
 ```
 
+## onPlayerAddFriendCallback
+```lua
+onPlayerAddFriendCallback(function(world, player, addedPlayer)
+```
+
 ## onTilePlaceCallback
 ```lua
 onTilePlaceCallback(function(world, player, tile, placingID)

@@ -44,6 +44,7 @@ getCurrentDailyEventDescription() -- Get daily event description.
 getCurrentRoleDayDescription() -- Get role day description.
 getServerID() -- Get the server's ID.
 getServerPlayers() -- Get all online players.
+getAllPlayers() -- Get all players (Including online & offline)
 ```
 
 ## Purchase & Modding Functions
