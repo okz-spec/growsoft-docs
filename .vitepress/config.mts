@@ -3,8 +3,8 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: '/',
-  title: "GrowSoft Docs",
-  description: "Technical documentation for GrowSoft Lua API",
+  title: "GrowSoft API Docs",
+  description: "Documentation for GrowSoft Lua API",
   appearance: 'force-dark',
   head: [
     ['link', { rel: 'icon', type: 'image/png', href: '/lock.png' }],
