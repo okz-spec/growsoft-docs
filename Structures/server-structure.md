@@ -63,9 +63,8 @@ addMod(modID, amount) -- Add a mod to a player.
 
 ```lua
 reloadScripts() -- Reload server scripts.
-loadDataFromServer(data) -- Load saved server data.
-loadData() -- Load data.
-saveDataToServer(data, data2) -- Save data to server.
+loadDataFromServer(key) -- Load saved server data.
+saveDataToServer(key, data) -- Save data to server.
 onAutoSaveRequest(function) -- Trigger auto save.
 ```
 
