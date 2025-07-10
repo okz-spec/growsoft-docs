@@ -8,14 +8,12 @@ import './style.css'
 export default {
   extends: DefaultTheme,
   Layout: () => {
+    // Вызов inject внутри onMounted
+    onMounted(() => {
+      console.log('[Analytics] Vercel inject triggered')
+      inject()
+    })
+
     return h(DefaultTheme.Layout)
-  },
-  enhanceApp() {
-    // Обеспечиваем запуск только на клиенте
-    if (typeof window !== 'undefined') {
-      onMounted(() => {
-        inject()
-      })
-    }
   }
 } satisfies Theme
