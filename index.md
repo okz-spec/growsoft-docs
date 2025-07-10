@@ -15,9 +15,9 @@ hero:
     - theme: alt
       text: About
       link: /about
-    - theme: alt
-      text: Original documentation on GitHub
-      link: https://github.com/Cl4ssicMan/GrowSoft-Luascript-Docs
+    # - theme: alt
+    #  text: Original documentation on GitHub
+    #  link: https://github.com/Cl4ssicMan/GrowSoft-Luascript-Docs
 
 features:
   - title: 🔥 Clear and modern
