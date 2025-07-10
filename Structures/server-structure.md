@@ -65,7 +65,9 @@ addMod(modID, amount) -- Add a mod to a player.
 reloadScripts() -- Reload server scripts.
 loadDataFromServer(key) -- Load saved server data.
 saveDataToServer(key, data) -- Save data to server.
-onAutoSaveRequest(function) -- Trigger auto save.
+onAutoSaveRequest(function()
+ -- Script needs to save things
+end)
 ```
 
 ## World Menu Functions
