@@ -3,8 +3,8 @@
 layout: home
 
 hero:
-  name: "GrowSoft Docs"
-  tagline: Technical documentation for GrowSoft Lua API
+  name: "GrowSoft API Docs"
+  tagline: Documentation for GrowSoft Lua API
   image:
     src: /icon.png
     alt: icon
