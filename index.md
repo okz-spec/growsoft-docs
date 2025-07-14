@@ -14,11 +14,7 @@ hero:
       link: /quick-start
     - theme: alt
       text: About
-      link: /about
-    # - theme: alt
-    #  text: Original documentation on GitHub
-    #  link: https://github.com/Cl4ssicMan/GrowSoft-Luascript-Docs
-
+      link: /about  
 features:
   - title: 🔥 Clear and modern
     details: Simple things like displaying dialogue for the player are done very simply, as is creating new commands.

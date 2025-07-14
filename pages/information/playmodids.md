@@ -1,8 +1,7 @@
-# Info about playmods
+# 🎉 Playmods
 
-Playmod id, consumableid_time, playmod name, playmod on used, playmod on removed, display id, state, skin, how work, eff, say text after using, gravity
-
-```lua
+playmod id, consumableid_time, playmod name, playmod on used, playmod on removed, display id, state, skin, how work, eff, say text after using, gravity
+```
 {"1", "388_300", "Stinky", "You really really smell.", "The air clears.", "372", "14", "spray.wav", "", "", "", "", ""},
 {"2", "1368_2", "Frozen", "Your body has turned to ice. You can't move!", "You've thawed out.", "1368", "11", "freeze.wav", "4284769380", "", "", "", ""},
 {"3", "274_10", "Frozen", "Freeze!", "You've thawed out.", "274", "11", "freeze.wav", "4284769380", "", "", "", ""},

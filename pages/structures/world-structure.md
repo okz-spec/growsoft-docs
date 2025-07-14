@@ -29,6 +29,10 @@ world:hasAccess(player)
 world:hasTileAccess(player, tile)
 world:punchTile(tile)
 world:getID() -- Get the world's ID.
+world:createNPC(NPC, X, Y)
+world:findNPCByName("npc_name")
+world:removeNPC("npc_name")
+world:setClothing(NPC, ID)
 getWorldSizeX() -- Get the world’s size horizontally.
 getWorldSizeY() -- Get the world’s size vertically.
 getTile(x, y) -- Get the tile at the specified coordinates.

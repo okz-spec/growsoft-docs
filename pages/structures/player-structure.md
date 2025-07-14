@@ -33,6 +33,14 @@ player:getItemAmount(itemID)
 player:changeItem(itemID, amount)
 ```
 
+## Title
+
+```lua
+player:hasTitle(id)
+player:addTitle(id)
+player:removeTitle(id)
+```
+
 ## Inventory
 
 ```lua
