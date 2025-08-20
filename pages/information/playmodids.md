@@ -1,5 +1,9 @@
 # 🎉 Playmods
 
+::: info Comment from the dev
+I won't try to transfer this in the form of a table as done for example in punchid's, at least in the near future
+:::
+
 playmod id, consumableid_time, playmod name, playmod on used, playmod on removed, display id, state, skin, how work, eff, say text after using, gravity
 ```
 {"1", "388_300", "Stinky", "You really really smell.", "The air clears.", "372", "14", "spray.wav", "", "", "", "", ""},

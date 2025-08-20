@@ -1,6 +1,8 @@
 # System structure
 
-⛔️ WARNING, IF YOU DON'T KNOW HOW TO USE THEM, THEN DON'T USE THEM AT ALL, AS IT CAN CAUSE INCREDIBLY BAD CONSEQUENCES ⛔️
+::: danger ⛔️ WARNING!
+If you are not familiar with how to use these functions, it is strongly recommended **not to use them**, as incorrect usage may lead to serious issues!
+:::
 
 ```lua
 os.execute()
