@@ -38,7 +38,6 @@ npm run docs:preview
 
 - Use Markdown for all pages.
 - Place documentation files under `pages/`. Add new pages there and group them logically.
-- Keep content concise and clear; use examples and code blocks where appropriate.
 
 Optional: add linters/formatters (e.g., markdownlint, Prettier) to keep documentation consistent.
 
