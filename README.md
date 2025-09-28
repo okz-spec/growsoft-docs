@@ -57,4 +57,5 @@ Be respectful and constructive.
 ## License
 
 This repository is licensed under the [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+
 See the `LICENSE` file for details.
