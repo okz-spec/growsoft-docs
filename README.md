@@ -16,7 +16,7 @@ Requirements:
 Clone the repository and install dependencies:
 
 ```powershell
-git clone <repo-url>
+git clone https://github.com/okz-spec/growsoft-docs
 cd growsoft-docs
 npm install
 ```
