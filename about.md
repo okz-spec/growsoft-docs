@@ -1,7 +1,7 @@
-# Lua Scripting Documentation for Growsoft
+# API Documentation for Growsoft
 
 - The site was created by `okz.`
 - Basic documentation on Github created by [Gnome](https://github.com/Cl4ssicMan/GrowSoft-Luascript-Docs)
 - A huge thank you to `Sebia` for creating GrowSoft 🥰
 
-If you want to officially become a contributor to this site and help me fill it out, write to me on discord: `okz.`
+This documentation is licensed under the [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
