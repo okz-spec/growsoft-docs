@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "GrowSoft API Docs"
-  tagline: Documentation for GrowSoft Lua API
+  tagline: Lua API Documentation for GrowSoft
   image:
     src: /icon.png
     alt: icon

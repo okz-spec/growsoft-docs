@@ -48,9 +48,15 @@ export default defineConfig({
       }
     ],
 
+    footer: {
+      message: 'Released under the CC BY 4.0 License',
+      copyright: `Copyright © ${new Date().getFullYear()} okz-spec`
+    },
+
     socialLinks: [
       { icon: 'discord', link: 'https://discord.gg/QCF6RaZrpS' },
-      { icon: 'google', link: 'https://growsoft.cc/' }
+      { icon: 'google', link: 'https://growsoft.cc/' },
+      { icon: 'github', link: 'https://github.com/okz-spec/growsoft-docs' }
     ]
   }
 })
