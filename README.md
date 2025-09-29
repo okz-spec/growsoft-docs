@@ -1,6 +1,6 @@
 # GrowSoft API Documentation
 
-This repository contains the API documentation for the GrowSoft project.
+This repository contains the API documentation for the GrowSoft.
 
 ## Repository structure
 
