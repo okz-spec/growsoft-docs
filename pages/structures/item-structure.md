@@ -12,6 +12,10 @@ getItem():getName() -- Returns the item's name.
 getActionType() -- Сan be used to check the type of an item, such as whether it is clothing, seeds or magical plants, fish... Basically anything!
 getItem(2):getRarity()
 item:getGrowTime()
+item:getCategoryType()
+item:getEditableType()
+item:setActionType(value)
+item:setDescription(text)
 ```
 
 ## Examples

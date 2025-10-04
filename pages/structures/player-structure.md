@@ -119,6 +119,9 @@ player:sendAction("action|play_sfx\nfile|audio/sound.mp3\ndelayMS|0")
 player:getWorld() -- Returns the world object or nil
 player:disconnect() -- Kick the player from the server
 
+player:setNickname("Here goes a nickname")
+player:resetNickname()
+
 getPlayerByName("Name") -- Get player object by name
 
 local bytes = string.char(1, 2, 3, 4 ...)
