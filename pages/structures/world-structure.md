@@ -5,14 +5,14 @@ Here you will learn how to work with the world structure.
 ## World Data Structure
 
 ```lua
-getOwner() -- Get the world's owner.
-getName() -- Get the name of the world's owner.
-getWorldName() -- Get the world's name.
-enterWorld(WorldName, "Message") -- Enter the specified world with a message.
-useItemEffect(player:getNetID(), itemID, replacethis:getNetID(), arg1) -- Use the item effect on a player.
-updateClothing(player) -- Update the player's clothing.
-spawnGems(x, y, amount, player) -- Spawn gems at the specified coordinates.
-useItemEffect(player:getNetID(), itemID, arg1, replacethis) -- Use the item effect on another player.
+world:getOwner() -- Get the world's owner.
+world:getName() -- Get the name of the world's owner.
+world:getWorldName() -- Get the world's name.
+world:enterWorld(WorldName, "Message") -- Enter the specified world with a message.
+world:useItemEffect(player:getNetID(), itemID, replacethis:getNetID(), arg1) -- Use the item effect on a player.
+world:updateClothing(player) -- Update the player's clothing.
+world:spawnGems(x, y, amount, player) -- Spawn gems at the specified coordinates.
+world:useItemEffect(player:getNetID(), itemID, arg1, replacethis) -- Use the item effect on another player.
 world:getPlayersCount() -- getPlayersCount is more efficient and recommended if you wanna check how many players are in world. || world:getPlayersCount() by default returns the number of visible players in world, if you want it to include everyone, even invisible use it this way: world:getPlayersCount(1).
 world:getVisiblePlayersCount() -- Get the number of visible players in the world.
 world:isGameActive() -- Check if the game is active.
@@ -35,7 +35,7 @@ world:findNPCByName("npc_name")
 world:removeNPC("npc_name")
 world:setClothing(NPC, ID)
 world:onLoot(player, tile, gem_count)
-getWorldSizeX() -- Get the world’s size horizontally.
-getWorldSizeY() -- Get the world’s size vertically.
-getTile(x, y) -- Get the tile at the specified coordinates.
+world:getWorldSizeX() -- Get the world’s size horizontally.
+world:getWorldSizeY() -- Get the world’s size vertically.
+world:getTile(x, y) -- Get the tile at the specified coordinates.
 ```
