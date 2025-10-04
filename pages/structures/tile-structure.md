@@ -18,6 +18,7 @@ setTileBackground(tile, id, 0, avatar)
 ---
 
 ```lua
+tile:getTileItem() -- Does the same as getItem(id) but its easier to use.
 getTiles() -- Returns an array of all tiles in the world.
 getTilesByActionType(actionType) -- Gets tiles with a specific action type.
 ```

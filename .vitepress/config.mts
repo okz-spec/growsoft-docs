@@ -21,7 +21,11 @@ export default defineConfig({
     
     sidebar: [
       {
-        text: '📒 Tutorials [Development]',
+        text: '📒 Tutorials',
+        items: [
+          { text: '📡 HTTP API', link: 'pages/tutorials/HTTP-API' },
+          { text: '📅 Event Tutorial', link: 'pages/tutorials/event-tutorial' },
+        ]
       },
       {
         text: '📡 Information',

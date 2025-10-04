@@ -21,9 +21,51 @@ onPlayerDialogCallback(function(world, player, data)
 onPlayerConsumableCallback(function(world, player, tile, clickedPlayer, itemID)
 ```
 
+## onPlayerEquippedClothingCallback
+```lua
+onPlayerEquippedClothingCallback(function(world, player, item_id)
+```
+
+## onPlayerUnequippedClothingCallback
+```lua
+onPlayerUnequippedClothingCallback(function(world, player, item_id)
+```
+
+## onPlayerDNACallback
+```lua
+onPlayerDNACallback(function(world, player, resultID, resultAmount)
+```
+
+## onPlayerTrashCallback
+```lua
+onPlayerTrashCallback(function(world, player, item_id, item_amount)
+```
+
+## onPlayerRecycleCallback
+```lua
+onPlayerRecycleCallback(world, player, item_id, item_amount, gems_earned)
+```
+
+## onPlayerPunchPlayerCallback
+```lua
+onPlayerPunchPlayerCallback(function(world, player, second_player)
+```
+
+## onPlayerPunchNPCCallback
+```lua
+onPlayerPunchNPCCallback(function(world, player, npc_player)
+```
+
+*Note: onPlayerPunchNPCCallback detects if you punch NPC's that you spawned in Lua or like magic orbs.*
+
 ## onTileWrenchCallback
 ```lua
 onTileWrenchCallback(function(world, player, tile)
+```
+
+## onTileBreakCallback
+```lua
+onTileBreakCallback(function(world, player, tile)
 ```
 
 ## onPlayerLoginCallback
@@ -65,6 +107,11 @@ onWorldTick(function(world)
 ## onPlayerFirstTimeLoginCallback
 ```lua
 onPlayerFirstTimeLoginCallback(function(player)
+```
+
+## onPlayerActionCallback
+```lua
+onPlayerActionCallback(function(world, player, data)
 ```
 
 ## onPlayerEnterWorldCallback
@@ -235,4 +282,14 @@ onPlayerTrainFishCallback(world, player)
 ## onPlayerGemsObtainedCallback
 ```lua
 onPlayerGemsObtainedCallback(world, player, amount)
+```
+
+## onEventChangedCallback
+```lua
+onEventChangedCallback(function(newEventID, oldEventID)
+```
+
+## onDiscordMessageCreateCallback
+```lua
+onDiscordMessageCreateCallback(function(event)
 ```

@@ -31,6 +31,10 @@ player:removeCoins(amount)
 
 player:getItemAmount(itemID)
 player:changeItem(itemID, amount)
+
+player:getBankBalance()
+player:addBankBalance(amount)
+player:removeBankBalance(amount)
 ```
 
 ## Title

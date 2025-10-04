@@ -5,6 +5,7 @@ Here you will learn how to work with the server structure.
 ## Basic Server Functions
 
 ```lua
+getMaxLevel() -- Get current max level
 getRequiredEvent() -- Get the currently required event.
 isVoucher() -- Check if an item is a voucher.
 getCurrentServerDailyEvent() -- Get today's server daily event.
@@ -31,6 +32,7 @@ getStoreItems() -- Get available store items.
 getEnumItem("ITEM_NAME") -- Get an item using its enum name.
 getID() -- Get the ID.
 getTileID() -- Get tile ID.
+tile:getTileItem() -- Does the same as getItem(id) but its easier to use.
 tile:getPosX() -- Get tile X position.
 tile:getPosY() -- Get tile Y position.
 getExpireTime() -- Get the expiration time.
@@ -45,6 +47,7 @@ getCurrentRoleDayDescription() -- Get role day description.
 getServerID() -- Get the server's ID.
 getServerPlayers() -- Get all online players.
 getAllPlayers() -- Get all players (Including online & offline)
+getCurrentServerEvent() -- Get current server event.
 ```
 
 ## Purchase & Modding Functions
@@ -68,12 +71,16 @@ saveDataToServer(key, data) -- Save data to server.
 onAutoSaveRequest(function()
  -- Script needs to save things
 end)
+
+-- Can be very helpful for those who work with json for saving and storing data, works better than traditional data saving and loading methods.
+loadStringFromServer("key")
+saveStringToServer("key", "value")
 ```
 
 ## World Menu Functions
 
 ```lua
-addWorldMenuWorld(worldID, name, color, priority) -- Add a world to menu.
+addWorldMenuWorld(worldID, name, color, priority) -- Add a world to menu. || color is Growtopia style decimal number. || priority can be 0 and 1, if it's 0 then its shown after our special worlds (GROWMINES, LOCKE...) if it's 1 then its shown before our special worlds.
 removeWorldMenuWorld(worldID) -- Remove a world from menu.
 hideWorldMenuDefaultSpecialWorlds(1 or 0) -- Show/hide default worlds.
 ```
@@ -108,4 +115,23 @@ local greenBeerModData = {
 }
 
 registerLuaPlaymod(greenBeerModData)
+```
+
+## Example: Add Sidebar Buttons
+
+```lua
+local lunarFestivalSidebarButton = {
+    active = true,
+    buttonAction = "lunarfestivalmenu",
+    buttonTemplate = "BaseEventButton",
+    counter = 0,
+    counterMax = 0,
+    itemIdIcon = 13054,
+    name = "LunarFestival",
+    order = lunarFestivalEventData.id,
+    rcssClass = "daily_challenge",
+    text = "`#Lunar``"
+}
+
+addSidebarButton(json.encode(lunarFestivalSidebarButton))
 ```
